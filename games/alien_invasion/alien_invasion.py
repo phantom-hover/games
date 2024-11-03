@@ -87,7 +87,7 @@ class AlienInvasion:
                 self.bullets.remove(bullet)
 
     def _update_screen(self):
-        """更新屏幕上的图像，并切换到新屏幕"""
+        """更新屏幕上的图像，然后切换到新屏幕"""
         # 每次循环时都重绘屏幕
         self.screen.fill(self.settings.bg_color)
         for bullet in self.bullets.sprites():
