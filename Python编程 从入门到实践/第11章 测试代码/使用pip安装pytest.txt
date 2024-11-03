@@ -1,0 +1,5 @@
+$ python -m pip install --upgrade pip
+#运行pip模块并让pip更新一个已安装的包
+
+$ python -m pip install --user pytest
+如果出现问题，尝试在不指定标志--user的情况下再次执行它

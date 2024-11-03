@@ -1,0 +1,5 @@
+“console”: “internalConsole” //调试控制台
+
+“console”: “integratedTerminal” //调试控制台和内部终端
+
+“console”: “externalTerminal” //外部终端
